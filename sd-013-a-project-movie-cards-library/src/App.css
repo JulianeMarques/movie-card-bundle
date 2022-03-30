@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Noto+Sans:ital@1&display=swap");
+
+body {
+  background-color: #000;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+}
+
+.movie-card-header {
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  background-color: #a01919;
+  display: flex;
+  height: 150px;
+  justify-content: flex-start;
+}
+
+.page-title {
+  letter-spacing: 7px;
+  color: #ffff;
+  font-size: 43px;
+  font-weight: 500;
+  text-align: center;
+  padding: 60px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+}
+
+.movie-list {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 48px 30px;
+}
+
+.movie-card {
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgba(255, 255, 255, 0.125);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin: 25px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.movie-card:hover {
+  transform: scale(1.15);
+  transition: 0.7s;
+}
+
+.movie-card-image {
+  width: 100%;
+}
+
+.movie-card-body {
+  flex: 1 1 auto;
+  padding: 20px 20px 0 20px;
+  background-color: white;
+}
+
+.movie-card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 12px;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.movie-card-subtitle {
+  color: #a01919;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 8px;
+  padding: 0 0 0 10px;
+}
+
+.movie-card-storyline {
+  font-size: 14px;
+  text-align: justify;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0 10px 0 10px;
+}
+
+.rating {
+  background-color: #d43a1f;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 3px 9px;
+  margin: 10px;
+}
+
+.movie-card-rating {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
